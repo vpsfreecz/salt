@@ -54,9 +54,9 @@ from salt.ext.six.moves.urllib.error import URLError
 # pylint: enable=import-error,no-name-in-module
 
 # Don't need a try/except block, since Salt depends on tornado
-import tornado.httputil
-import tornado.simple_httpclient
-from tornado.httpclient import HTTPClient
+#import tornado.httputil
+#import tornado.simple_httpclient
+#from tornado.httpclient import HTTPClient
 
 try:
     import tornado.curl_httpclient
